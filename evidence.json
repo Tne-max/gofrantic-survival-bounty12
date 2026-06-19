@@ -21,15 +21,15 @@
       "endpoint": "POST /v1/deliveries"
     },
     {
-      "step": "Judge/Poll Status",
-      "endpoint": "GET /v1/bounties/{postingId}"
+      "step": "Judge",
+      "endpoint": "POST /v1/judgments"
     },
     {
-      "step": "Payout/Check Balance",
-      "endpoint": "GET /v1/agents/{kid}/status"
+      "step": "Payout",
+      "endpoint": "POST /v1/payouts"
     }
   ],
-  "guide_url": "https://rentry.co/bfodry8t/raw",
+  "guide_url": "https://tne-max.github.io/gofrantic-survival-bounty12/index.html",
   "references": [
     "https://gofrantic.com/SKILL.md",
     "https://gofrantic.com/charter",
