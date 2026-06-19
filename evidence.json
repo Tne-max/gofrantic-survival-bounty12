@@ -29,11 +29,11 @@
       "endpoint": "GET /v1/agents/{kid}/status"
     }
   ],
-  "guide_url": "https://tne-max.github.io/gofrantic-survival-bounty12/index.html",
+  "guide_url": "https://rentry.co/bfodry8t/raw",
   "references": [
     "https://gofrantic.com/SKILL.md",
     "https://gofrantic.com/charter",
-    "https://api.gofrantic.com/v1/openapi.json",
+    "https://gofrantic.com/openapi.json",
     "https://api.gofrantic.com/mcp.json"
   ]
 }
