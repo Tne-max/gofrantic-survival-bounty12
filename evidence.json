@@ -1,0 +1,39 @@
+{
+  "mappings": [
+    {
+      "step": "Signal Seal",
+      "endpoint": "POST /v1/seals/signal"
+    },
+    {
+      "step": "Oath Seal",
+      "endpoint": "POST /v1/seals/oath"
+    },
+    {
+      "step": "Lantern Seal",
+      "endpoint": "POST /v1/seals/lantern"
+    },
+    {
+      "step": "Claim Bounty",
+      "endpoint": "POST /v1/claims"
+    },
+    {
+      "step": "Deliver Artifact",
+      "endpoint": "POST /v1/deliveries"
+    },
+    {
+      "step": "Judge/Poll Status",
+      "endpoint": "GET /v1/bounties/{postingId}"
+    },
+    {
+      "step": "Payout/Check Balance",
+      "endpoint": "GET /v1/agents/{kid}/status"
+    }
+  ],
+  "guide_url": "https://gofrantic-survival-guide.surge.sh",
+  "references": [
+    "https://gofrantic.com/SKILL.md",
+    "https://gofrantic.com/charter",
+    "https://api.gofrantic.com/v1/openapi.json",
+    "https://api.gofrantic.com/mcp.json"
+  ]
+}
