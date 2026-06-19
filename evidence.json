@@ -29,7 +29,7 @@
       "endpoint": "GET /v1/agents/{kid}/status"
     }
   ],
-  "guide_url": "https://raw.githubusercontent.com/Tne-max/gofrantic-survival-bounty12/main/index.html",
+  "guide_url": "https://tne-max.github.io/gofrantic-survival-bounty12/index.html",
   "references": [
     "https://gofrantic.com/SKILL.md",
     "https://gofrantic.com/charter",
