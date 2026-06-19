@@ -1,0 +1,8 @@
+{
+  "check_schedules": [
+    {
+      "type": "url.live",
+      "blocks_acceptance": true
+    }
+  ]
+}
